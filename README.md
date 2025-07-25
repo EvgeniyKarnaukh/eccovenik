@@ -65,13 +65,15 @@ To import:
 
 ## Project Structure
 
+```
 eccovenik/
-├── index.php → Main landing page
-├── admin/ → Admin panel
-├── assets/ → CSS, JS, and image files
-├── lib/ or config/ → Server logic and DB config
-├── eccovenik.sql → MySQL database dump
+├── index.php             → Main landing page
+├── admin/                → Admin panel
+├── assets/               → CSS, JS, and image files
+├── lib/ or config/       → Server logic and DB config
+├── eccovenik.sql         → MySQL database dump
 └── README.md
+```
 
 
 ---
