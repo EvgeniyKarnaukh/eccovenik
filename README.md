@@ -2,7 +2,7 @@
 
 **Author:** Evgeniy (Yevhen) Karnaukh
 **Created:** 2021
-**Live demo** ➜ [eccovenik.great-site.net](http://eccovenik.great-site.net)
+**Live demo:** [eccovenik.great-site.net](http://eccovenik.great-site.net)
 
 ## Overview
 
