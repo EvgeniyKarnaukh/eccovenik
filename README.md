@@ -49,7 +49,7 @@ To import:
 
 1. Clone the repo or upload the files to your server
 2. Import the database (`eccovenik.sql`)
-3. Set database credentials in the PHP config file (`lib/db.php`)
+3. Set database credentials in the PHP config file (`lib/start.php`)
 4. Open `index.php` in your browser
 5. Go to `/admin/start.php` to access the CRM
 
