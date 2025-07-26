@@ -1,6 +1,6 @@
 # eccovenik
 
-**Author:** Evgeniy (Yevhen) Karnaukh  
+**Author:** Evgeniy (Yevhen) Karnaukh
 **Created:** 2021
 
 ## Overview
@@ -31,7 +31,7 @@ This project requires a MySQL database. Use the provided file `eccovenik.sql` to
 ### Main Tables:
 
 | Table             | Description                             |
-|------------------|-----------------------------------------|
+|-------------------|-----------------------------------------|
 | `lan_orders`      | Stores customer orders                  |
 | `lan_users`       | User records (name, phone, email, etc.) |
 | `lan_prices`      | Product list with images and pricing    |
@@ -49,7 +49,7 @@ To import:
 
 1. Clone the repo or upload the files to your server
 2. Import the database (`eccovenik.sql`)
-3. Set database credentials in the PHP config file (e.g., `lib/db.php` or `config/db.php`)
+3. Set database credentials in the PHP config file (`lib/db.php`)
 4. Open `index.php` in your browser
 5. Go to `/admin/start.php` to access the CRM
 
@@ -67,10 +67,13 @@ To import:
 
 ```
 eccovenik/
-├── index.php             → Main landing page
 ├── admin/                → Admin panel
 ├── assets/               → CSS, JS, and image files
-├── lib/ or config/       → Server logic and DB config
+├── lib/                  → Server logic and DB config
+├── index.php             → Main landing page
+├── privacy.php           → Privacy policy page
+├── sitemap.xml           → Sitemap for search engines
+├── success.php           → Thank-you page after form submission
 ├── eccovenik.sql         → MySQL database dump
 └── README.md
 ```
