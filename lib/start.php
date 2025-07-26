@@ -11,13 +11,13 @@
 	define("LP_VERSION", "1.0");
 	
 	// Домен
-	define("DOMAIN", "eccovenik.ru");
+	define("DOMAIN", "eccovenik.great-site.net");
 	
 	// Данные администратора
 	define("SECRET", "8Q9ry5dgh6dYd93jdz6M54dreK");
 	define("ADM_LOGIN", "admin");
 	define("ADM_PASSWORD", "ce230b44bf0e0fcd58c354c698111a37");	
-	define("ADM_EMAIL", "eccovenik@yandex.ru");
+	define("ADM_EMAIL", "email@eccovenik.great-site.net");
 	
 	// Формат даты
 	define("FORMAT_DATE", "d.m.Y (H:i)");
@@ -29,7 +29,7 @@
 	define("DB_NAME", "vh484196_eccovenik");
 	
 	// SMS Aero
-	define("SMS_EMAIL", "eccovenik@yandex.ru");
+	define("SMS_EMAIL", "email@eccovenik.great-site.net");
 	define("SMS_API_KEY", "5lu8BtFgcnXKaLehJtz8KLWI5Rsl");
 	define("SMS_PHONE", "79120253889");
 	
